@@ -1,4 +1,4 @@
-body.transf{
+body.transf {
   div.content.container-xxl {
     > .item {
       padding-top: 20px;
@@ -80,6 +80,36 @@ body.transf{
             height: 30px;
             border-radius: 40px;
             background-color: #E9E9E9;
+            border: none;
+
+            &::placeholder {
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+
+      &.resumen {
+        .resoome {
+          p {
+            margin: 0;
+            font-size: 20px;
+            color: darkgray;
+          }
+        }
+      }
+
+      &.confirmar {
+        .form-item {
+          input {
+            width: 150px;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: black;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFF;
           }
         }
       }

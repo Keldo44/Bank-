@@ -64,6 +64,25 @@ body.transf div.content.container-xxl > .item.destino .form-item input, body.tra
   height: 30px;
   border-radius: 40px;
   background-color: #E9E9E9;
+  border: none;
+}
+body.transf div.content.container-xxl > .item.destino .form-item input::placeholder, body.transf div.content.container-xxl > .item.cantidad .form-item input::placeholder {
+  padding-left: 20px;
+}
+body.transf div.content.container-xxl > .item.resumen .resoome p {
+  margin: 0;
+  font-size: 20px;
+  color: darkgray;
+}
+body.transf div.content.container-xxl > .item.confirmar .form-item input {
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
 }
 
 body.cryptos * {
@@ -175,6 +194,215 @@ body.cryptos .data .last-move ul li {
 }
 body.cryptos .data .last-move ul li:nth-last-child(3), body.cryptos .data .last-move ul li:last-child {
   color: red;
+}
+
+body.bodyLogin {
+  /* CSS compartido entre las páginas */
+  /* --------------------- */
+  /*Desplegables*/
+  /*Botón del iniciar sesión*/
+  /*Footer*/
+  /* --------------------- */
+  /* --------------------- */
+  /* CSS página HOME*/
+  /* --------------------- */
+}
+body.bodyLogin * {
+  margin: 0;
+  padding: 0;
+}
+body.bodyLogin header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: rgb(210, 210, 210);
+}
+body.bodyLogin a {
+  text-decoration: none;
+  color: black;
+}
+body.bodyLogin .imgHeader {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: #b4b4b4;
+}
+body.bodyLogin ul {
+  list-style: none;
+  text-align: justify;
+}
+body.bodyLogin .nav li a {
+  background-color: rgb(253, 250, 250);
+  border-radius: 12px;
+  border: solid 2px;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+body.bodyLogin .nav li a:hover {
+  background-color: rgb(187, 228, 252);
+  border-radius: 12px;
+  cursor: cell;
+}
+body.bodyLogin .nav > li {
+  float: left;
+}
+body.bodyLogin .nav li ul {
+  display: none;
+  position: absolute;
+  padding: 0px;
+}
+body.bodyLogin .nav li:hover > ul {
+  display: block;
+}
+body.bodyLogin .button_slide {
+  color: #FFF;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 16px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #807d7f;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+body.bodyLogin .slide_left:hover {
+  box-shadow: inset 0 0 0 50px #a8a8a8;
+}
+body.bodyLogin footer {
+  background-color: rgb(32, 32, 32);
+}
+body.bodyLogin footer > div {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+body.bodyLogin footer * {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  color: #b4b4b4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body.bodyLogin footer a {
+  transition: all 140ms ease-in-out;
+}
+body.bodyLogin footer a:hover {
+  color: #ffffff;
+}
+body.bodyLogin footer .icons {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+body.bodyLogin footer .publi {
+  margin-top: 15px;
+}
+body.bodyLogin footer .lastSources span:first-child {
+  margin-right: 15px;
+}
+body.bodyLogin .icons {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(77, 77, 77);
+}
+body.bodyLogin .cuerpoHome {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  background-color: rgb(210, 210, 210);
+}
+body.bodyLogin .grafico {
+  width: 65%;
+  height: 300px;
+  border-radius: 25px 0 0 25px;
+  background-color: aqua;
+}
+body.bodyLogin .importantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 30%;
+  height: 300px;
+  padding-left: 60px;
+  border-radius: 0 25px 25px 0;
+  background-color: rgb(185, 185, 185);
+}
+body.bodyLogin .targetasC {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+body.bodyLogin .targeta {
+  padding: 10px 0 8px 20px;
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 4px;
+  font-size: 30px;
+  background-color: chocolate;
+}
+body.bodyLogin .bancoImg {
+  padding: 0 0 10px 60%;
+  height: 20px;
+  width: 30px;
+  text-align: right;
+}
+body.bodyLogin .ultimosMovimientos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 80px 120px auto 450px 180px;
+  grid-template-rows: 50px 50px;
+  border-radius: 20px;
+  background-color: rgb(185, 185, 185);
+}
+body.bodyLogin .item-a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 20px 0 0 20px;
+  background-color: cyan;
+}
+body.bodyLogin .item-b {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: crimson;
+}
+body.bodyLogin .item-c {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: cornflowerblue;
+}
+body.bodyLogin .item-d {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: green;
+}
+body.bodyLogin .item-e {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 0 20px 20px 0;
+  background-color: darkorange;
 }
 
 /*# sourceMappingURL=style.css.map */
