@@ -1,0 +1,180 @@
+@charset "UTF-8";
+body.transf div.content.container-xxl > .item {
+  padding-top: 20px;
+}
+body.transf div.content.container-xxl > .item:not(:last-of-type) {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #E5E5E5;
+}
+body.transf div.content.container-xxl > .item.origen {
+  padding-bottom: 125px;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel {
+  position: absolute;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card {
+  width: 250px;
+  height: 100px;
+  position: relative;
+  opacity: 0.35;
+  transition: all 0.3s;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card img {
+  width: 70px;
+  height: 25px;
+  object-fit: cover;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:nth-child(6n+1) {
+  background-color: #007BFF;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:nth-child(6n+2) {
+  background-color: #00CC66;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:nth-child(6n+3) {
+  background-color: #FFD700;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:nth-child(6n+4) {
+  background-color: #FF4500;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:nth-child(6n+5) {
+  background-color: #E20A0A;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:nth-child(6n+6) {
+  background-color: #800080;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:hover {
+  opacity: 1;
+  transition: all 0.3s;
+}
+body.transf div.content.container-xxl > .item.destino .form-item, body.transf div.content.container-xxl > .item.cantidad .form-item {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+body.transf div.content.container-xxl > .item.destino .form-item input, body.transf div.content.container-xxl > .item.cantidad .form-item input {
+  width: 500px;
+  height: 30px;
+  border-radius: 40px;
+  background-color: #E9E9E9;
+}
+
+body.cryptos * {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "ui-monospace", sans-serif;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+body.cryptos .container {
+  margin: auto;
+}
+body.cryptos .tarjetas {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  overflow: auto;
+}
+body.cryptos .tarjetas::-webkit-scrollbar {
+  display: none;
+}
+body.cryptos .tarjetas p {
+  margin: 0;
+  font-size: 23px;
+}
+body.cryptos .tarjetas p:after {
+  content: "€";
+}
+body.cryptos .tarjetas .tarjeta {
+  background: rgba(0, 128, 0, 0.541);
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: end;
+  border-radius: 10px;
+  font-size: 23px;
+}
+body.cryptos .tarjetas .tarjeta svg {
+  width: 50px;
+  height: 50px;
+}
+body.cryptos .tarjetas .tarjeta:first-child {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+body.cryptos .tarjetas .tarjeta:nth-child(2) {
+  background-color: rgba(179, 255, 0, 0.2);
+}
+body.cryptos .tarjetas .tarjeta:nth-child(3) {
+  background-color: rgba(255, 238, 0, 0.2);
+}
+body.cryptos .tarjetas .tarjeta:nth-child(4) {
+  background-color: rgba(0, 255, 242, 0.2);
+}
+body.cryptos .tarjetas .tarjeta:nth-child(5) {
+  background-color: rgba(234, 0, 255, 0.2);
+}
+body.cryptos .tarjetas .tarjeta:nth-child(6) {
+  background-color: rgba(0, 255, 13, 0.2);
+}
+body.cryptos .data {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+body.cryptos .data > * {
+  width: 50%;
+}
+body.cryptos .data .graphic {
+  background: url("../../assets/Rectangle 837.png") center center no-repeat;
+  background-size: cover;
+  border-radius: 50px 0 0 50px;
+}
+body.cryptos .data .graphic .dots {
+  display: none;
+}
+body.cryptos .data .graphic .top-graphico {
+  padding: 20px;
+  background: grey;
+  width: fit-content;
+  border-radius: 50px;
+  margin: 30px;
+}
+body.cryptos .data .graphic .top-graphico p {
+  margin: 0;
+}
+body.cryptos .data .graphic .top-graphico p:after {
+  content: "€";
+}
+body.cryptos .data .last-move {
+  background: #333;
+  padding: 20px;
+  height: 100%;
+  border-radius: 0 50px 50px 0;
+}
+body.cryptos .data .last-move ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+body.cryptos .data .last-move ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 100px;
+  color: green;
+  text-shadow: 0 0 0 1px white;
+}
+body.cryptos .data .last-move ul li:nth-last-child(3), body.cryptos .data .last-move ul li:last-child {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
