@@ -9,18 +9,16 @@ body.transf {
       }
   
       &.origen {
-        padding-bottom: 125px;
   
         .card-carrusel {
-          position: absolute;
-  
           .cards {
             display: flex;
             flex-flow: row;
             gap: 10px;
   
             .card {
-              width: 250px;
+              width: 250px !important;
+              margin-left: 10px;
               height: 100px;
               position: relative;
               opacity: 0.35;
