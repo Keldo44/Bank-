@@ -27,7 +27,7 @@ body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card
 body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card img {
   width: 70px;
   height: 25px;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   right: 10px;
   bottom: 10px;
@@ -51,6 +51,10 @@ body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card
   background-color: #800080;
 }
 body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card:hover {
+  opacity: 1;
+  transition: all 0.3s;
+}
+body.transf div.content.container-xxl > .item.origen .card-carrusel .cards .card.selected {
   opacity: 1;
   transition: all 0.3s;
 }
@@ -403,6 +407,40 @@ body.bodyLogin .item-e {
   grid-row-end: 3;
   border-radius: 0 20px 20px 0;
   background-color: darkorange;
+}
+body.bodyLogin .container > p {
+  display: flex;
+}
+body.bodyLogin .card {
+  background: rgb(191, 191, 191);
+  margin: auto;
+  width: 80%;
+}
+body.bodyLogin p {
+  margin-bottom: 0;
+}
+body.bodyLogin .branding {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+body.bodyLogin .containerflex > img {
+  width: 10%;
+}
+body.bodyLogin form {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-inline: 50px;
+}
+body.bodyLogin form > * {
+  width: 100%;
+}
+body.bodyLogin form > label {
+  text-align: left;
+}
+body.bodyLogin form > input {
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

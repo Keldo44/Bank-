@@ -9,6 +9,22 @@
     <link href="../style/css/style.css" rel="stylesheet">
 </head>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const cards = document.querySelectorAll('.card');
+
+        cards.forEach(card => {
+            card.addEventListener('click', function() {
+                // Remove 'selected' class from all cards
+                cards.forEach(c => c.classList.remove('selected'));
+
+                // Add 'selected' class to the clicked card
+                card.classList.add('selected');
+            });
+        });
+    });
+</script>
+
 
 <body class="transf">
     <div class="content container-xxl">
@@ -20,7 +36,7 @@
                         <img src="../assets/visa1.png">
                     </div>
                     <div class="card">
-                        <img src="../assets/mastercard1.png">
+                        <img src="../assets/mastercard.png">
                     </div>
                     <div class="card">
                         <img src="../assets/visa1.png">

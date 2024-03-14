@@ -29,7 +29,7 @@ body.transf {
               img {
                 width: 70px;
                 height: 25px;
-                object-fit: cover;
+                object-fit: contain;
                 position: absolute;
                 right: 10px;
                 bottom: 10px;
@@ -61,6 +61,11 @@ body.transf {
   
   
               &:hover {
+                opacity: 1;
+                transition: all .3s;
+              }
+
+              &.selected {
                 opacity: 1;
                 transition: all .3s;
               }
