@@ -200,7 +200,9 @@ footer .lastSources span:first-child {
 }
 
 /* --------------------- */
-/* --------------------- */
+body.transf div.content.container-xxl {
+  padding: 50px 0;
+}
 body.transf div.content.container-xxl > .item {
   padding-top: 20px;
 }
