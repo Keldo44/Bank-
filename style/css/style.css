@@ -109,6 +109,7 @@ body.home .ultimosMovimientos {
   grid-template-rows: 50px 50px;
   border-radius: 20px;
   background-color: rgb(185, 185, 185);
+  font-size: 24px;
 }
 body.home .ultimosMovimientos > * {
   display: flex;
