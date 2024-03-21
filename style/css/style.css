@@ -423,6 +423,7 @@ body.cryptos .data > * {
   width: 50%;
 }
 body.cryptos .data .graphic {
+  margin-bottom: 130px;
   background: url("../../assets/Rectangle 837.png") center center no-repeat;
   background-size: cover;
   border-radius: 50px 0 0 50px;
@@ -444,7 +445,8 @@ body.cryptos .data .graphic .top-graphico p:after {
   content: "€";
 }
 body.cryptos .data .last-move {
-  background: #333;
+  margin-bottom: 130px;
+  background: #414141;
   padding: 20px;
   height: 100%;
   border-radius: 0 50px 50px 0;
