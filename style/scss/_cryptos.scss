@@ -3,12 +3,17 @@ body.cryptos {
     font-size: 18px;
     font-weight: 500;
     font-family: "ui-monospace", sans-serif;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
   }
   .container {
     margin: auto;
   }
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
   .tarjetas {
     margin-top: 50px;
     display: flex;

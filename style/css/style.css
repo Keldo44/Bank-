@@ -359,11 +359,14 @@ body.cryptos * {
   font-size: 18px;
   font-weight: 500;
   font-family: "ui-monospace", sans-serif;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
 }
 body.cryptos .container {
   margin: auto;
+}
+body.cryptos footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 body.cryptos .tarjetas {
   margin-top: 50px;
