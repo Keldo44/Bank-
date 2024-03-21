@@ -17,8 +17,8 @@ footer {
   .tarjetas {
     margin-top: 50px;
     display: flex;
-    gap: 20px;
-    justify-content: start;
+    //gap: 20px;
+    justify-content: space-between;
     overflow: auto;
     &::-webkit-scrollbar {
       display: none;
@@ -35,8 +35,8 @@ footer {
       padding: 5px 20px;
       display: flex;
       flex-direction: row;
-      gap: 50px;
-      align-items: end;
+      gap: 20px;
+      align-items: center;
       border-radius: 10px;
       font-size: 23px;
       svg {

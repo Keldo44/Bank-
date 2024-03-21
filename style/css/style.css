@@ -372,8 +372,7 @@ body.cryptos footer {
 body.cryptos .tarjetas {
   margin-top: 50px;
   display: flex;
-  gap: 20px;
-  justify-content: start;
+  justify-content: space-between;
   overflow: auto;
 }
 body.cryptos .tarjetas::-webkit-scrollbar {
@@ -391,8 +390,8 @@ body.cryptos .tarjetas .tarjeta {
   padding: 5px 20px;
   display: flex;
   flex-direction: row;
-  gap: 50px;
-  align-items: end;
+  gap: 20px;
+  align-items: center;
   border-radius: 10px;
   font-size: 23px;
 }
@@ -482,10 +481,6 @@ body.bodyLogin {
   /* --------------------- */
   /* CSS página HOME*/
   /* --------------------- */
-}
-body.bodyLogin * {
-  margin: 0;
-  padding: 0;
 }
 body.bodyLogin header {
   display: flex;
