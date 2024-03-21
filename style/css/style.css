@@ -571,8 +571,9 @@ body.bodyLogin .checkbox-login {
 body.bodyLogin .container-box {
   padding-top: 15px;
 }
-body.bodyLogin .container-box button {
+body.bodyLogin .container-box a {
   width: 100%;
+  display: block;
   margin-top: 20px;
   padding: 10px 0;
   background-color: black;
